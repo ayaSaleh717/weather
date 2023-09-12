@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Rubik:ital,wght@1,300&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="alternate" href="https://drive.google.com/drive/u/0/folders/143c-pfl4MvxQsUjrc4ahE6UXfdxilkw0" >
+    <title>Weather app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+
+</head>
+<body>
+    <div class="weather-app">
+        <div class="container">
+            <h3 class="brand">The weather</h3>
+            <div class="info">
+            <h1 class="temp">16&#176</h1>
+            <div class="city-time">
+                <h1 class="name">London</h1>
+                <small>
+                    <!-- <span class="time">06:09</span> -->
+                    
+                    <span class="date">
+                        Monday Sep 19
+                    </span>
+                </small>
+                </div>
+                <div class="weather">
+                    <img 
+                    src="http://openweathermap.org/img/w/10n.png"
+                    class="icon"
+                    width="50"
+                    height="50"
+                    alt="icon">
+                    <span class="condition">Sunny</span>
+                  </div>
+             </div>
+         </div>
+                <div class="panel">
+                    <form action="" id="locationInput">
+                        <input 
+                        type="text"
+                        class="search"
+                        placeholder="Search Location..."
+                        />
+                        <button type="submit" class="submit" >
+                        
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                    <ul class="cities">
+                        <li class="city">New York</li>
+                        <li class="city">California</li>
+                        <li class="city">Paris</li>
+                        <li class="city">Tokyo</li>
+                        <li class="city">Syria</li>
+                        <li class="city">London</li>
+                    </ul>
+                    <h4>Weather Details</h4>
+                    <ul class="details">
+                        
+                        <li>
+                            <span>Cloudy</span>
+                            <span class="cloud">83%</span>
+                        </li>
+                        <li>
+                            <span>Humidity</span>
+                            <span class="humidity">66%</span>
+                        </li>
+                        <li>
+                            <span>Wind</span>
+                            <span class="wind">8km/h</span>
+                        </li>
+
+                    </ul>
+           </div>
+       </div>
+    
+</body>
+<script src="./src/java.js"></script>
+</html>
